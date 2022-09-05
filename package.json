@@ -1,0 +1,23 @@
+{
+  "name": "site-scraper",
+  "version": "1.0.0",
+  "description": "a web scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeweii/site-scraper.git"
+  },
+  "author": "Zachary Jiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeweii/site-scraper/issues"
+  },
+  "homepage": "https://github.com/Zeweii/site-scraper#readme",
+  "dependencies": {
+    "puppeteer": "^17.1.1"
+  }
+}
