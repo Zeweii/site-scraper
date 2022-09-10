@@ -1,5 +1,5 @@
 const scraperObject = {
-	url: 'http://books.toscrape.com',
+	url: 'https://www.sportsbet.com.au/betting/soccer/united-kingdom/english-premier-league',
 	async scraper(browser, category){
             let page = await browser.newPage();
             console.log(`Navigating to ${this.url}...`);
