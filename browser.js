@@ -1,4 +1,6 @@
-const puppeteer = require('puppeteer');
+// const puppeteer = require('puppeteer');
+import { launch }  from 'puppeteer';
+
 
 async function startBrowser(){
 	let browser;
